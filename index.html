@@ -11,15 +11,15 @@
   <div class="hero">
     <nav class="menu">
       <ul class="nav">
-        <li class="nav__item"><a class="nav__link" href="#"></a></li>
-        <li class="nav__item"><a class="nav__link" href="#">Tour</a></li>
-        <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
-        <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+        <li class="nav__item"><a class="nav__link nav__link_menu-icon hover" href="#"></a></li>
+        <li class="nav__item"><a class="nav__link hover" href="#">Tour</a></li>
+        <li class="nav__item"><a class="nav__link hover" href="#">Features</a></li>
+        <li class="nav__item"><a class="nav__link hover" href="#">Pricing</a></li>
       </ul>
-      <a class="logo"></a>
+      <a href="#" class="logo hover"></a>
       <ul class="help">
-        <li class="help__item">Help</li>
-        <li class="help__item">Contacts</li>
+        <li class="help__item"><a href="#" class="help__link hover">Help</a></li>
+        <li class="help__item"><a href="#" class="help__link hover">Contacts</a></li>
         <li class="help__item">
           <button class="help__button">
             <div class="help__button-image"></div>
@@ -31,7 +31,10 @@
     <header class="header">
       <h1 class="header__heading">What happens tomorrow?</h1>
       <p class="header__text">The sight of the tumblers restored Bob Sawyer to a degree of equanimity which he had not possessed since his interview with his landlady. His face brightened up, and he began to feel quite convivial.</p>
-      <button class="header__button">Watch Video</button>
+      <button class="header__button">
+        <div class="header__button-image"></div>
+        <p class="header__button-text">Watch Video</p>
+      </button>
       <div class="header__phone-image"></div>
     </header>
   </div>
@@ -57,8 +60,10 @@
     <div class="iphone-feature__content">
       <h2 class="iphone-feature__title">Your day <br>
         is protected</h2>
-      <p class="iphone-feature__paragraph">There have not been any since we have lived here, said my mother. </p>
-      <p class="iphone-feature__paragraph">We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests were very old ones, and the birds have deserted them a long while.</p>
+      <div class="iphone-feature__text">
+        <p class="iphone-feature__paragraph">There have not been any since we have lived here, said my mother. </p>
+        <p class="iphone-feature__paragraph">We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests were very old ones, and the birds have deserted them a long while.</p>
+      </div>
       <div class="iphone-feature__buttons">
         <button class="iphone-feature__hack-button"><p>Try to hack us!</p><p>&rightarrow;</p></button>
         <button class="iphone-feature__learn-button">Learn More</button>
@@ -67,50 +72,55 @@
     <div class="iphone-feature__image"></div>
   </section>
   <footer class="footer">
-    <div class="socials">
-      <a href="#" class="footer__logo"></a>
-      <p class="footer__text"></p>
-      <div class="footer__button"></div>
-      <ul class="socials__list">
-        <li class="social"><a href="#" class="social-link"></a></li>
-        <li class="social"><a href="#" class="social-link"></a></li>
-        <li class="social"><a href="#" class="social-link"></a></li>
-        <li class="social"><a href="#" class="social-link"></a></li>
-        <li class="social"><a href="#" class="social-link"></a></li>
-        <li class="social"><a href="#" class="social-link"></a></li>
-      </ul>
+    <div class="footer__top-part">
+      <div class="socials">
+        <a href="#" class="footer__logo hover"></a>
+        <p class="footer__text">It was some time before he obtained any answer, and the reply, when made, was unpropitious.</p>
+        <a href="#" class="footer__download-button hover"></a>
+        <ul class="socials__list">
+          <li class="social"><a href="#" class="social-link hover"><img src="./images/Twitter Icon.png" alt="Твиттер"></a></li>
+          <li class="social"><a href="#" class="social-link hover"><img src="./images/Facebook Icon.png" alt="Фейсбук"></a></li>
+          <li class="social"><a href="#" class="social-link hover"><img src="./images/Google Icon.png" alt="Гугл+"></a></li>
+          <li class="social"><a href="#" class="social-link hover"><img src="./images/Tumbler Icon.png" alt="Тумблер"></a></li>
+          <li class="social"><a href="#" class="social-link hover"><img src="./images/Pinterest Icon.png" alt="Пинтерест"></a></li>
+          <li class="social"><a href="#" class="social-link hover"><img src="./images/LinkedIn Icon.png" alt="Линкедин"></a></li>
+        </ul>
+      </div>
+      <div class="footer__menu">
+        <h2 class="footer__menu-name">Learn More</h2>
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">How it works?</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Meeting tools</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Live streaming</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Contact method</a></li>
+        </ul>
+      </div>
+      <div class="footer__menu">
+        <h2 class="footer__menu-name">About Us</h2>
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">About us</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Features</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Privacy police</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer__menu">
+        <h2 class="footer__menu-name">Support</h2>
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">F.A.Q.</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Contact us</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Live chat</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link hover">Phone call</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="footer__menu">
-      <h2 class="footer__menu-name">Learn More</h2>
-      <ul class="footer__menu-list">
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">How it works?</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Meeting tools</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Live streaming</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Contact method</a></li>
-      </ul>
-    </div>
-    <div class="footer__menu">
-      <h2 class="footer__menu-name">About Us</h2>
-      <ul class="footer__menu-list">
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">About us</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Features</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Privacy police</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Terms & Conditions</a></li>
-      </ul>
-    </div>
-    <div class="footer__menu">
-      <h2 class="footer__menu-name">Support</h2>
-      <ul class="footer__menu-list">
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">F.A.Q.</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Contact us</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Live chat</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Phone call</a></li>
-      </ul>
-    </div>
+    <hr class="footer__divider">
     <div class="copyrights">
-      <p class="copyrights__visit">For more freebies visit:<a href="#" class="copyrights__visit-link"></a></p>
+      <p class="copyrights__visit">For more freebies visit:
+        <a href="http://getcraftwork.com"class="copyrights__visit-link hover">http://getcraftwork.com</a>
+      </p>
       <p class="copyrights__with-love">Made with love by</p>
-      <div class="copyrights__logo"></div>
+      <a class="copyrights__logo hover" href="#"></a>
     </div>
   </footer>
 </body>
