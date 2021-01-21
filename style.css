@@ -23,7 +23,11 @@
 }
 
 h1, h2 {
-  font-family: "VarelaRound";
+  font-family: "VarelaRound", serif;
+}
+
+button {
+  font-family: "Lato", serif;
 }
 
 .hero {
@@ -42,6 +46,7 @@ h1, h2 {
 }
 
 .nav {
+  width: 30%;
   display: flex;
   list-style: none;
   align-items: center;
@@ -74,6 +79,7 @@ h1, h2 {
 }
 
 .help {
+  width: 30%;
   display: flex;
   list-style: none;
   align-items: center;
@@ -215,7 +221,7 @@ h1, h2 {
   min-height: 645px;
   display: flex;
   justify-content: flex-end;
-  padding: 265px 215px;
+  padding: 200px 215px;
   background-image: url(./images/iphone-feature.png);
   background-repeat: no-repeat;
   background-position: -90px 90px;
